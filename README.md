@@ -30,3 +30,4 @@ Without having to wait, and without having to talk to or interact with anyone.
 * interactive visuals
     - sliders ?
     - graphs & charts ?
+    - fancy Gifs

@@ -1,0 +1,3 @@
+# Notes
+
+We'll use this folder for keeping track of proress and drafts and stuff...

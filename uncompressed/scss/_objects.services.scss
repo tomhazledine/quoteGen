@@ -1,0 +1,19 @@
+.services{
+    width:100%;
+}
+.service{
+    width:23%;
+    margin:1%;
+    float:left;
+    background:$white;
+    box-shadow:rgba($black,.2) -.5em .5em 0 0;
+    padding:.5em;
+    &:nth-of-type(4n+1){clear:both;}
+}
+
+.serviceTitle{
+    font-size:1.2em;
+    font-weight:bold;
+    padding-bottom:1em;
+    word-break:break-word;
+}

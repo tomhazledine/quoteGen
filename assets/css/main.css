@@ -83,6 +83,14 @@ blockquote {
   padding-left: 0.5em;
   font-style: italic; }
 
+li {
+  padding-left: 0.5em;
+  list-style: none;
+  margin-bottom: 0.5em;
+  position: relative;
+  line-height: 1;
+  border-left: 1em solid #ff851b; }
+
 .genericButton:focus {
   outline: none; }
 
@@ -105,8 +113,28 @@ input, textarea {
 
 .mainWrap {
   width: 90%;
-  max-width: 40em;
+  max-width: 60em;
   margin: 0 auto; }
+
+.services {
+  width: 100%; }
+
+.service {
+  width: 23%;
+  margin: 1%;
+  float: left;
+  background: #fff;
+  -webkit-box-shadow: rgba(17, 17, 17, 0.2) -0.5em 0.5em 0 0;
+          box-shadow: rgba(17, 17, 17, 0.2) -0.5em 0.5em 0 0;
+  padding: 0.5em; }
+  .service:nth-of-type(4n+1) {
+    clear: both; }
+
+.serviceTitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 1em;
+  word-break: break-word; }
 
 header {
   background: #111;

@@ -46,11 +46,11 @@ gulp.task('cpsass', function() {
         .pipe(sass({errLogToConsole: true}))
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
         .pipe(size({title: 'css'}))
-        .pipe(gulp.dest('_includes/'))
+        .pipe(gulp.dest('assets/css/'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
         .pipe(size({title: 'css.min'}))
-        .pipe(gulp.dest('_includes/'))
+        .pipe(gulp.dest('assets/css/'))
         // .pipe(livereload(server));
 });
 

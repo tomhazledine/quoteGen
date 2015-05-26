@@ -1,0 +1,56 @@
+# Features #
+---
+
+## Research & Analysis ##
+
+- Market Analysis
+- Focus Groups
+- User Testing
+- Usability Studies
+
+Needs to be something they can't untick but the importance needs to be explained. 
+
+## Good Advice ##
+
+Needs to be something they can't untick but the importance needs to be explained.
+
+## Brand Identity/Development ##
+
+Needs to be something they can't untick but the importance needs to be explained. 
+
+## Responsive Web Design ##
+
+Needs to be tickable and will affect the cost, but the importance needs to be explained. 
+
+## Content Management ##
+
+Needs to be tickable and will affect the cost, but the importance needs to be explained. 
+
+## Support ##
+
+Needs to be tickable and will affect the cost, but the importance needs to be explained. 
+
+## Hosting ##
+
+Needs to be tickable and will affect the cost, but the importance needs to be explained. 
+
+## User Experience ##
+
+- User Journeys
+- Workflows
+- Information Architecture
+- Usability
+- Wireframes
+- Interaction Design
+
+Needs to be tickable and will affect the cost, but the importance needs to be explained. 
+
+## Web Development ##
+
+- Development
+- Bug Fixes
+- Content Changes
+
+
+Needs to be something they can't untick but the more things they add the more this will increase the cost, the importance needs to be explained. 
+

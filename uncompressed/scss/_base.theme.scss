@@ -1,0 +1,25 @@
+body{
+    font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
+    background:$teal;
+}
+
+h1{
+    // font-size:2em;
+    // margin-bottom:1em;
+    text-transform:uppercase;
+    // font-weight:bold;
+    font-style:italic;
+    letter-spacing:.2em;
+}
+
+p{
+    padding-bottom:1em;
+}
+
+blockquote{
+    // font-size:1.5em;
+    border-left:.2em solid $black;
+    margin-left:-.7em;
+    padding-left:.5em;
+    font-style:italic;
+}

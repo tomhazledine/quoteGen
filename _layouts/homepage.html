@@ -8,91 +8,99 @@ layout: default
         <h2>{{ page.title }}</h2>
         {{ content }}
     </div>
+
+    <div id="services">
+
+        <input type="text" v-model="name">
+
+        <pre>{% raw %}{{ $data | json }}{% endraw %}</pre>
             
-    <div class="service">
-        <h2 class="serviceTitle">Good Advice</h2>
-        <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
-        <input type="checkbox" checked disabled>
-    </div>
+        <!-- <div class="service">
+            <h2 class="serviceTitle">Good Advice</h2>
+            <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
+            <input type="checkbox" checked disabled>
+        </div>
 
-    <div class="service">
-        <h2 class="serviceTitle">Brand Identity/Development</h2>
-        <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
-        <input type="checkbox">
-    </div>
+        <div class="service">
+            <h2 class="serviceTitle">Brand Identity/Development</h2>
+            <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
+            <input type="checkbox">
+        </div>
 
-    <div class="service">
-        <h2 class="serviceTitle">Responsive Web Design</h2>
-        <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
-        <input type="checkbox" checked disabled>
-    </div>
+        <div class="service">
+            <h2 class="serviceTitle">Responsive Web Design</h2>
+            <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
+            <input type="checkbox" checked disabled>
+        </div>
 
-    <div class="service">
-        <h2 class="serviceTitle">Content Management</h2>
-        <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
-        <input type="checkbox">
-    </div>
+        <div class="service">
+            <h2 class="serviceTitle">Content Management</h2>
+            <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
+            <input type="checkbox">
+        </div>
 
-    <div class="service">
-        <h2 class="serviceTitle">Support</h2>
-        <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
-        <input type="checkbox">
-    </div>
+        <div class="service">
+            <h2 class="serviceTitle">Support</h2>
+            <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
+            <input type="checkbox">
+        </div>
 
-    <div class="service">
-        <h2 class="serviceTitle">Hosting</h2>
-        <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
-        <input type="checkbox">
-    </div>
+        <div class="service">
+            <h2 class="serviceTitle">Hosting</h2>
+            <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
+            <input type="checkbox">
+        </div>
 
-    <div class="service">
-        <h2 class="serviceTitle">User Experience</h2>
-        <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
-        <ul>
-            <li>
-                <h3>User Journeys</h3>
-                <input type="checkbox" checked disabled>
-            </li>
-            <li>
-                <h3>Workflows</h3>
-                <input type="checkbox">
-            </li>
-            <li>
-                <h3>Information Architecture</h3>
-                <input type="checkbox" checked disabled>
-            </li>
-            <li>
-                <h3>Usability</h3>
-                <input type="checkbox" checked disabled>
-            </li>
-            <li>
-                <h3>Wireframes</h3>
-                <input type="checkbox">
-            </li>
-            <li>
-                <h3>Interaction Design</h3>
-                <input type="checkbox">
-            </li>
-        </ul>
-    </div>
+        <div class="service">
+            <h2 class="serviceTitle">User Experience</h2>
+            <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
+            <ul>
+                <li>
+                    <h3>User Journeys</h3>
+                    <input type="checkbox" checked disabled>
+                </li>
+                <li>
+                    <h3>Workflows</h3>
+                    <input type="checkbox">
+                </li>
+                <li>
+                    <h3>Information Architecture</h3>
+                    <input type="checkbox" checked disabled>
+                </li>
+                <li>
+                    <h3>Usability</h3>
+                    <input type="checkbox" checked disabled>
+                </li>
+                <li>
+                    <h3>Wireframes</h3>
+                    <input type="checkbox">
+                </li>
+                <li>
+                    <h3>Interaction Design</h3>
+                    <input type="checkbox">
+                </li>
+            </ul>
+        </div>
 
-    <div class="service">
-        <h2 class="serviceTitle">Web Development</h2>
-        <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
-        <ul>
-            <li>
-                <h3>Development</h3>
-                <input type="checkbox">
-            </li>
-            <li>
-                <h3>Bug Fixes</h3>
-                <input type="checkbox">
-            </li>
-            <li>
-                <h3>Content Changes</h3>
-                <input type="checkbox">
-            </li>
-        </ul>
+        <div class="service">
+            <h2 class="serviceTitle">Web Development</h2>
+            <p>Odd Future Truffaut hoodie, Thundercats skateboard farm-to-table 90's. Pickled four loko master cleanse authentic roof party, American Apparel aesthetic.</p>
+            <ul>
+                <li>
+                    <h3>Development</h3>
+                    <input type="checkbox">
+                </li>
+                <li>
+                    <h3>Bug Fixes</h3>
+                    <input type="checkbox">
+                </li>
+                <li>
+                    <h3>Content Changes</h3>
+                    <input type="checkbox">
+                </li>
+            </ul>
+        </div>-->
+
     </div>
 
 </div>

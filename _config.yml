@@ -1,3 +1,14 @@
 name: QuoteGen 0.1
 markdown: redcarpet
 pygments: true
+exclude: [config.rb,
+          gruntfile.js,
+          root.css,
+          sass,
+          favicon_sizes,
+          social_icons,
+          package.json,
+          notes*.md,
+          img/design_files*,
+          img/raw*,
+          node_modules]
